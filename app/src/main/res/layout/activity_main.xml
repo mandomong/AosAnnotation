@@ -23,4 +23,22 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"/>
 
+    <Button
+        android:id="@+id/linearBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="리니어레이아웃" />
+
+    <Button
+        android:id="@+id/relativeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="상대레이아웃"/>
+
+    <Button
+        android:id="@+id/frameBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"/>
+
 </LinearLayout>

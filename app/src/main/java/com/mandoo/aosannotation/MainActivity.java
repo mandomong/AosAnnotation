@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Click
     void frameBtn(){
-        Intent intent = new Intent(getApplicationContext(), FrameActivity.class);
+        Intent intent = new Intent(getApplicationContext(), FrameActivity_.class);
         startActivity(intent);
     }
 

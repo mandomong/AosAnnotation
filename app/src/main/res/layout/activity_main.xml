@@ -39,6 +39,6 @@
         android:id="@+id/frameBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"/>
+        android:text="프레임레이아웃"/>
 
 </LinearLayout>

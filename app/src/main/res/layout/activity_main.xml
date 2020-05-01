@@ -23,22 +23,45 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"/>
 
-    <Button
-        android:id="@+id/linearBtn"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="리니어레이아웃" />
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/relativeBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="상대레이아웃"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
-    <Button
-        android:id="@+id/frameBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="프레임레이아웃"/>
+            <Button
+                android:id="@+id/linearBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="리니어레이아웃" />
+
+            <Button
+                android:id="@+id/relativeBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="상대레이아웃" />
+
+            <Button
+                android:id="@+id/frameBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="프레임레이아웃" />
+
+            <Button
+                android:id="@+id/defaultWidget"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="기본위젯" />
+
+            <Button
+                android:id="@+id/drawableBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="드로어블" />
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

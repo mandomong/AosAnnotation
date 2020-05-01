@@ -48,4 +48,16 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    @Click
+    void defaultWidget(){
+        Intent intent = new Intent(getApplicationContext(), DefaultWidgetActivity.class);
+        startActivity(intent);
+    }
+
+    @Click
+    void drawableBtn(){
+        Intent intent = new Intent(getApplicationContext(), DrawableActivity.class);
+        startActivity(intent);
+    }
+
 }
